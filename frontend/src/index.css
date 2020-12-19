@@ -67,3 +67,7 @@ td a {
 .navbar-desc {
   font-size: 0.6rem;
 }
+
+.checkout-steps a {
+  color: #ced4da;
+}

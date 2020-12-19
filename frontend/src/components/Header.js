@@ -23,7 +23,8 @@ const Header = () => {
         <Container>
           <LinkContainer to='/'>
             <Navbar.Brand>
-              Mycopolis: <p class='navbar-desc'>Quality Gourmet Mushrooms</p>
+              Mycopolis:{' '}
+              <p className='navbar-desc'>Quality Gourmet Mushrooms</p>
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
