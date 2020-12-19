@@ -85,9 +85,12 @@ const RegisterScreen = ({ location, history }) => {
         </Button>
       </Form>
       <Row className='py-3'>
-        <Col>
+        <Col style={{ color: '#ced4da' }}>
           Have an account?{' '}
-          <Link to={redirect ? `/login?redirect=${redirect}` : '/login'}>
+          <Link
+            to={redirect ? `/login?redirect=${redirect}` : '/login'}
+            style={{ color: '#ced4da' }}
+          >
             Login
           </Link>
         </Col>

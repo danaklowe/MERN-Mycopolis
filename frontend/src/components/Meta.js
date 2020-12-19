@@ -12,9 +12,9 @@ const Meta = ({ title, description, keywords }) => {
 };
 
 Meta.defaultProps = {
-  title: 'Welcome To ProShop',
-  description: 'We sell the best products for cheap',
-  keywords: 'electronics, buy electronics, cheap electronics',
+  title: 'Mycopolis - Gourmet Mushrooms',
+  description: 'We sell the highest quality gourmet mushrooms',
+  keywords: 'mushrooms, mushroom kits, dried mushrooms, mushroom extracts',
 };
 
 export default Meta;

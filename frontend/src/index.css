@@ -1,19 +1,32 @@
 main {
   min-height: 80vh;
+  background-image: url('./forestGround.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
   font-size: 1.8rem;
   padding: 1rem 0;
+  color: #ced4da;
 }
 
 h2 {
   font-size: 1.4rem;
   padding: 0.5rem 0;
+  color: #ced4da;
 }
 
 h3 {
   padding: 1rem 0;
+}
+
+label,
+legend,
+th,
+td,
+td a {
+  color: #ced4da;
 }
 
 .rating span {
@@ -49,4 +62,8 @@ h3 {
 
 .carousel a {
   margin: 0 auto;
+}
+
+.navbar-desc {
+  font-size: 0.6rem;
 }

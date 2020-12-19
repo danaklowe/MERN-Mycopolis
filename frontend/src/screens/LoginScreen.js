@@ -58,9 +58,12 @@ const LoginScreen = ({ location, history }) => {
         </Button>
       </Form>
       <Row className='py-3'>
-        <Col>
+        <Col style={{ color: '#ced4da' }}>
           New Customer?{' '}
-          <Link to={redirect ? `/register?redirect=${redirect}` : '/register'}>
+          <Link
+            style={{ color: '#ced4da' }}
+            to={redirect ? `/register?redirect=${redirect}` : '/register'}
+          >
             Register
           </Link>
         </Col>
