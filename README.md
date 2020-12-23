@@ -1,0 +1,4 @@
+# MERN-Mycopolis
+MERN eCommerce website for sale of gourmet mushrooms.
+
+Fully-fledged eCommerce website utilizing the MERN (MongoDB, Express.js, React, & Node.js) stack. Provides for all merchant capabilities including user registration, payment processing (via the PayPal API), and order monitoring. Provides administrative capabilities including product, user, and order creation and management. Utilizes Bootstrap for CSS styling, React hooks to manage both component and global state (via Redux), and middleware (thunk) to handle dispatching of actions from components to reducer(s). Server developed with Express provides RESTful APIs allowing the client to interact with the application. Accesses an external database via mongoDB and the mongoose library to store and fetch JSON data on users, products, and orders. Additional application features: product reviews, product list pagination, and error handling.
